@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T08:04:40.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.0.6" etag="nBExNnoOQTlGAwe0oSGu" type="github"><diagram id="vz35zgv2P0i0qedg_GW0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-17T09:42:58.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="bic9f_hwulM4XKe2ZBgG" version="15.0.6" type="github">
+  <diagram id="vz35zgv2P0i0qedg_GW0" name="Page-1">
+    <mxGraphModel dx="782" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-1" value="GUI&lt;br&gt;(Socket Client)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-2" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="149.5" as="sourcePoint" />
+            <mxPoint x="290" y="149.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-7" value="启动注射器程序，传入测试文件路径" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-9" value="注射器程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-10" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="140" as="sourcePoint" />
+            <mxPoint x="530" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="140" />
+              <mxPoint x="490" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-12" value="测试程序&lt;br&gt;(Socket Server)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-13" value="启动并注入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.6;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="epbBs0jnOVAEAks9c-Hu-1" target="epbBs0jnOVAEAks9c-Hu-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="50" as="sourcePoint" />
+            <mxPoint x="610" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="30" />
+              <mxPoint x="602" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-17" value="socket通信，传入执行参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-22" value="Dllmain(Detours)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-23" value="" style="shape=flexArrow;endArrow=classic;html=1;width=15;endSize=4.5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="140" as="sourcePoint" />
+            <mxPoint x="590" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-24" value="钩取API，将信息写入共享内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="epbBs0jnOVAEAks9c-Hu-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="182" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-27" value="共享内存" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-30" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.038;entryY=0.495;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="epbBs0jnOVAEAks9c-Hu-22" target="epbBs0jnOVAEAks9c-Hu-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="260" as="sourcePoint" />
+            <mxPoint x="420" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-31" value="WRITE DATA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="epbBs0jnOVAEAks9c-Hu-34" value="READ DATA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
