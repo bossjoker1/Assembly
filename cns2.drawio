@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T02:59:46.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="18.0.4" etag="GM4S__XDvuAvGNFYTkQm" type="github"><diagram id="n-k_3VYT_abuaq5maere">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-16T03:49:08.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="OpE2eAbp66Dsdoa4vpu5" version="18.0.4" type="github">
+  <diagram id="n-k_3VYT_abuaq5maere" name="Page-1">
+    <mxGraphModel dx="782" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="437" y="98" width="307" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E37440;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="22" y="98" width="307" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-2" value="TCP套接字模块&lt;br&gt;(bind/listen)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="126" y="113" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-3" value="SERVER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="KRhaVOOHHwZQ1irm5oWg-5" target="KRhaVOOHHwZQ1irm5oWg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-5" value="TCP套接字模块" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="464" y="113" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-6" value="CLIENT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="513" y="67" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-8" value="connect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="113" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-9" value="SSL验证模块" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="126" y="185" width="160" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-11" value="SSL验证模块" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="466" y="185" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464" y="207" as="sourcePoint" />
+            <mxPoint x="284" y="207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-24" value="seed dees" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="348" y="176" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-25" value="callback" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="348" y="216" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-26" value="login" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="146" y="238" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-27" value="login" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="490" y="235" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-28" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" target="KRhaVOOHHwZQ1irm5oWg-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="287" y="245" as="sourcePoint" />
+            <mxPoint x="334" y="246.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-29" value="隧道创建模块" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="126" y="276" width="163" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-30" value="隧道创建模块" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="466" y="282" width="163" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-32" value="select&lt;br&gt;监听模块" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fontStyle=1;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="37" y="125.5" width="57" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="KRhaVOOHHwZQ1irm5oWg-35" value="select&lt;br&gt;监听模块" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fontStyle=1;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="675" y="125.5" width="57" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
