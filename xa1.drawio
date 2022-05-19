@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T02:25:44.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="18.0.6" etag="Tq1LYpykd3519_z11dAU" type="github"><diagram id="qrCupYzHjn1gKade48iV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-19T02:50:29.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="zy-QeREX20Jwc5J3yfdW" version="18.0.6" type="github">
+  <diagram id="qrCupYzHjn1gKade48iV" name="Page-1">
+    <mxGraphModel dx="782" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-1" value="录音及切割音频模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="114" width="113" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-2" value="手机终端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="88.5" y="261" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="71" width="212" height="241" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-4" value="音频处理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="314" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wfWSWYs0TszhOTFCR1wc-5" target="wfWSWYs0TszhOTFCR1wc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-5" value="高通滤波" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="286" y="100" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wfWSWYs0TszhOTFCR1wc-6" target="wfWSWYs0TszhOTFCR1wc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-6" value="声波效应增强" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="286" y="170" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-7" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;小波降噪和重构&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="286" y="242" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=23;notch=0;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="178" y="167" width="69" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=14;curved=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="443" y="128.5" as="sourcePoint" />
+            <mxPoint x="445" y="247.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=23;notch=0;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="465" y="165" width="102" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-16" value="分片算法" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="465" y="105" width="95" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-18" value="特征提取" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="464.5" y="191" width="95.5" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-19" value="向量化表征" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="572" y="139" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-20" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=23;notch=0;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="641" y="167" width="69" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="wfWSWYs0TszhOTFCR1wc-21" value="分类决策模型" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="714" y="156" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
