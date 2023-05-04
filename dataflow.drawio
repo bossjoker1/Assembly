@@ -1,9 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T08:00:53.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.3" etag="i-_TW1YLUB8ghVM4f_m-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T08:20:01.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1mOViGTNkjV1GknWnOzR" version="21.2.3" type="github">
   <diagram name="第 1 页" id="kz6f5KCUFOFx_yrh-0Or">
-    <mxGraphModel>
+    <mxGraphModel dx="660" dy="922" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-21" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="ql460tF2Ubj2OFCX9cF1-1" target="ql460tF2Ubj2OFCX9cF1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-22" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="ql460tF2Ubj2OFCX9cF1-1" target="ql460tF2Ubj2OFCX9cF1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-1" value="votes weight" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=15;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.574;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="ql460tF2Ubj2OFCX9cF1-2" target="ql460tF2Ubj2OFCX9cF1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-20" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.444;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="ql460tF2Ubj2OFCX9cF1-2" target="ql460tF2Ubj2OFCX9cF1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-2" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 15px;&quot;&gt;call &lt;br style=&quot;font-size: 15px;&quot;&gt;getPriorVotes&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-17" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ql460tF2Ubj2OFCX9cF1-3" target="ql460tF2Ubj2OFCX9cF1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="428.8333333333335" as="targetPoint" />
+            <mxPoint x="423" y="335" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="517" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-3" value="&lt;font face=&quot;Verdana&quot;&gt;StateVariables&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ql460tF2Ubj2OFCX9cF1-4" target="ql460tF2Ubj2OFCX9cF1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-4" value="&lt;font face=&quot;Verdana&quot;&gt;Upstream Func&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="275" y="398" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-18" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="ql460tF2Ubj2OFCX9cF1-5" target="ql460tF2Ubj2OFCX9cF1-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="128" y="436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-5" value="&lt;font face=&quot;Verdana&quot;&gt;Args&lt;br&gt;(StateVariables)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="44" y="310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ql460tF2Ubj2OFCX9cF1-6" value="&lt;font face=&quot;Verdana&quot;&gt;block.number&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="270" y="508" width="160" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
