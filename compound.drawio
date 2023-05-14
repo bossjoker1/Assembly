@@ -1,9 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T02:40:33.846Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.2.9" etag="l0jxQ6dWrA3L5RpcjKvC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-14T03:20:03.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Ll3ksdNxHB9OYX1MxBVf" version="21.2.9" type="github">
   <diagram name="第 1 页" id="VdMcgq-6a-ip62jq3eBy">
-    <mxGraphModel>
+    <mxGraphModel dx="1430" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QVeQqWBbwHf0rienqLYD-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=13;" edge="1" parent="1" source="QVeQqWBbwHf0rienqLYD-1" target="QVeQqWBbwHf0rienqLYD-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="390" />
+              <mxPoint x="410" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-27" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=none;curved=1;fontStyle=1;fontSize=13;" edge="1" parent="1" source="QVeQqWBbwHf0rienqLYD-1" target="QVeQqWBbwHf0rienqLYD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-28" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.721;entryY=0.155;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fontStyle=1;fontSize=13;" edge="1" parent="1" source="QVeQqWBbwHf0rienqLYD-1" target="QVeQqWBbwHf0rienqLYD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-1" value="提案投票参数初始化" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-3" value="timelock_ : 提案通过后的锁定时间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="519" y="260" width="201" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-4" value="votingPeriod_ : 投票窗口的大小" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-5" value="votingDelay_ : 投票提出后需要等待的时间用于review" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-6" value="&lt;span style=&quot;color: rgb(33, 37, 41); font-size: 11.7806px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;proposalThreshold_: 提案通过需要达到的阈值&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=13;" edge="1" parent="1" source="QVeQqWBbwHf0rienqLYD-7" target="QVeQqWBbwHf0rienqLYD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-29" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fontStyle=1;fontSize=13;" edge="1" parent="1" source="QVeQqWBbwHf0rienqLYD-7" target="QVeQqWBbwHf0rienqLYD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-7" value="发布提案" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-10" value="targets : 提案涉及的不同条款的合约地址" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="519" y="400" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-11" value="description: 提案的描述信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-12" value="values_ : 合约对应的ETHs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-13" value="&lt;span style=&quot;color: rgb(33, 37, 41); font-size: 11.7806px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;proposal: 新提案的id&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-14" value="&lt;span style=&quot;color: rgb(33, 37, 41); font-size: 11.7806px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;calldata&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="520" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=13;" edge="1" parent="1" source="QVeQqWBbwHf0rienqLYD-15" target="QVeQqWBbwHf0rienqLYD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-32" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.951;entryY=0.776;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fontStyle=1;fontSize=13;" edge="1" parent="1" source="QVeQqWBbwHf0rienqLYD-15" target="QVeQqWBbwHf0rienqLYD-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="615" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="615" />
+              <mxPoint x="214" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-15" value="投票" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="350" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="500" y="560" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-18" value="Function:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="519" y="560" width="201" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-19" value="castVoteBySig()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="620" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-20" value="castVote(proposalId, support)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="590" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-21" value="&lt;font color=&quot;#212529&quot;&gt;&lt;span style=&quot;font-size: 11.7806px; background-color: rgb(255, 255, 255);&quot;&gt;castVoteWithReason()&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="650" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontSize=13;" edge="1" parent="1" source="QVeQqWBbwHf0rienqLYD-22" target="QVeQqWBbwHf0rienqLYD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-31" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.894;entryY=0.793;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fontStyle=1;fontSize=13;" edge="1" parent="1" source="QVeQqWBbwHf0rienqLYD-22" target="QVeQqWBbwHf0rienqLYD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-22" value="入队(queue)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="350" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-24" value="执行(execute)" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVeQqWBbwHf0rienqLYD-26" value="cancel" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
