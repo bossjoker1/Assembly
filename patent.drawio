@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T14:51:08.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.9" etag="Raah5YmR8hJTunyPvjpO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-26T11:58:08.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="WshJBaLswl2DlcjqDw-E" version="21.6.9" type="github">
   <diagram name="第 1 页" id="TirDzSgPLSpRCQdbtelc">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-20" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-12" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="170" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-1" value="Solc编译 &amp;amp;&lt;br&gt;Slither生成IR" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sFRvsb73YJ_N3fSTZnwN-2" target="sFRvsb73YJ_N3fSTZnwN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-2" value="治理合约代码" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-6" value="脚本读取配置文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sFRvsb73YJ_N3fSTZnwN-8" target="sFRvsb73YJ_N3fSTZnwN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-8" value="&lt;span&gt;重排控制流基本块 &amp;amp;&lt;br&gt;构建分析框架&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="465" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-9" value="预处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-10" value="确定污染源&amp;amp;&lt;br&gt;污点传播" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="465" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sFRvsb73YJ_N3fSTZnwN-11" target="sFRvsb73YJ_N3fSTZnwN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-11" value="检测投票函数" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="465" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="209.5" as="sourcePoint" />
+            <mxPoint x="460" y="209.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-14" value="定位漏洞代码位置" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="270" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-19" value="日志打印和修复建议" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sFRvsb73YJ_N3fSTZnwN-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="379.5" as="sourcePoint" />
+            <mxPoint x="410" y="379.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
