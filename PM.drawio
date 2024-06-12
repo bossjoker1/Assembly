@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T12:25:55.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="21.3.3" etag="BmcKSIW6C2uFLBzdBMfx" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T13:02:46.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="wpqNSrKFIBUXq2RmVvl8" version="21.3.3" type="github">
   <diagram name="第 1 页" id="DpBAecrN9S_4ORhCehox">
-    <mxGraphModel>
+    <mxGraphModel dx="1562" dy="845" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="155" width="273" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Contract:&lt;/b&gt; &lt;font face=&quot;Times New Roman&quot;&gt;0x3694&lt;/font&gt; &lt;b&gt;Func: &lt;/b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;flash(...)&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="155" width="273" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-7" value="Token flow:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="191" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-9" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 13px;&quot;&gt;transfer &lt;i style=&quot;font-size: 13px;&quot;&gt;BUSD&lt;/i&gt;&amp;nbsp;to AC.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="119" y="213.25" width="276" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="283" width="273" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Contract:&lt;/b&gt;&amp;nbsp;&lt;font face=&quot;Times New Roman&quot;&gt;PancakeRouter&lt;/font&gt;&amp;nbsp;&lt;b&gt;Func: &lt;/b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;swap(...)&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="283" width="273" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-12" value="Token flow:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="319" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-13" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 13px;&quot;&gt;swap &lt;i style=&quot;font-size: 13px;&quot;&gt;BUSD&lt;/i&gt; to &lt;i style=&quot;font-size: 13px;&quot;&gt;WBNB&lt;/i&gt;, to_address: AC.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="119" y="341.25" width="276" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="411" width="273" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Contract:&lt;/b&gt;&amp;nbsp;&lt;font face=&quot;Times New Roman&quot;&gt;VC&lt;/font&gt;&amp;nbsp;&lt;b&gt;Func: &lt;/b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;sweep(...)&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="411" width="273" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-16" value="Token flow:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="447" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-17" value="&lt;font face=&quot;Times New Roman&quot;&gt;transfer &lt;i&gt;BUSD &lt;/i&gt;to AC;&lt;br&gt;swap &lt;i&gt;BUSD &lt;/i&gt;to &lt;i&gt;WBNB&lt;/i&gt;, to_address: 0x1cea;&lt;br&gt;swap &lt;i&gt;WBNB&lt;/i&gt;&amp;nbsp;to &lt;i&gt;ELEPHANT&lt;/i&gt;, to_address: 0xaf09.&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="119" y="477" width="276" height="49.75" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="573" width="273" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Contract:&lt;/b&gt;&amp;nbsp;&lt;font face=&quot;Times New Roman&quot;&gt;PancakeRouter&lt;/font&gt;&amp;nbsp;&lt;b&gt;Func: &lt;/b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;swap(...)&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="573" width="273" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-20" value="Token flow:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="609" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-21" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;br&gt;swap &lt;i&gt;WBNB&lt;/i&gt;&amp;nbsp;to &lt;i&gt;BUSD&lt;/i&gt;&amp;nbsp;to_address:&amp;nbsp; AC.&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="117" y="622.13" width="276" height="27.75" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="39Ndfhp_dy2rKstH9wdf-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="247" as="sourcePoint" />
+            <mxPoint x="295" y="193.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="246" y="375" as="sourcePoint" />
+            <mxPoint x="247" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="246" y="537" as="sourcePoint" />
+            <mxPoint x="247" y="573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-28" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout" vertex="1" parent="1">
+          <mxGeometry x="333" y="336" width="175" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="39Ndfhp_dy2rKstH9wdf-29" value="Vulerable function:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;made &lt;i&gt;WBNB&lt;/i&gt; price high" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="350.5" y="348" width="140" height="53" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
